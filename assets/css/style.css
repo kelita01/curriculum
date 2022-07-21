@@ -1,0 +1,26 @@
+:root {
+    --bs-primary: #9c1abc;
+    --bs-secondary: #b0b5bb;
+    --bs-info: #f8d7da;
+}  
+*{
+    margin: 0;
+}
+.primary{
+    background-color: var(--bs-info);
+}
+body{
+    background-color: var(--bs-info);
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    margin-bottom: 50px;
+}
+.top-line{
+    border-top: 1px solid black;
+}
+.profile{
+    border-radius: 155px;
+}
